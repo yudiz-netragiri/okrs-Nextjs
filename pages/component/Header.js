@@ -1,7 +1,7 @@
 import { useQuery } from '@apollo/client'
 import Link from 'next/link'
 import React from 'react'
-import { GET_ALL_HEADERDATA } from '../graphql/api'
+import { GET_ALL_HEADERDATA } from '../../graphql/api'
 
 function Header () {
   const { data } = useQuery(GET_ALL_HEADERDATA)

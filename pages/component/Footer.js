@@ -1,8 +1,8 @@
 import { useQuery } from '@apollo/client'
 import React from 'react'
-import { GET_ALL_FOOTERDATA } from '../graphql/api'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { GET_ALL_FOOTERDATA } from '../../graphql/api'
 
 function Footer () {
   const { data } = useQuery(GET_ALL_FOOTERDATA)

@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client'
 import React from 'react'
-import { GET_ALL_ARTICLE } from './graphql/api'
+import { GET_ALL_ARTICLE } from '../graphql/api'
 
 function index () {
   const { data } = useQuery(GET_ALL_ARTICLE)
